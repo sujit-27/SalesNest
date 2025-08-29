@@ -12,7 +12,7 @@ COPY crm/src crm/src/
 RUN mvn -f crm/pom.xml clean package -DskipTests
 
 # Use a smaller base image for runtime
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copy the jar from the build stage
