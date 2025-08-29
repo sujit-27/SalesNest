@@ -21,7 +21,7 @@ function AddDealForm() {
     setSuccessMsg(null);
 
     try {
-      const response = await fetch(`http://localhost:8080/addDeal`, {
+      const response = await fetch(`https://salesnest.onrender.com/addDeal`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

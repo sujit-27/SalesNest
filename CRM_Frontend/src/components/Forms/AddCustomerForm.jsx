@@ -21,7 +21,7 @@ function AddCustomerForm() {
     setSuccessMsg(null);
 
     try {
-      const response = await fetch(`http://localhost:8080/addCustomer`, {
+      const response = await fetch(`https://salesnest.onrender.com/addCustomer`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

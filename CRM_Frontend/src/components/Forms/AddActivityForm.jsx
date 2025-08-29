@@ -21,7 +21,7 @@ function AddActivityForm() {
     setSuccessMsg(null);
 
     try {
-      const response = await fetch(`http://localhost:8080/addActivity`, {
+      const response = await fetch(`https://salesnest.onrender.com/addActivity`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const fetchCustomers = createAsyncThunk(
   "customers/fetchCustomers",
   async () => {
-    const response = await fetch("http://localhost:8080/customers");
+    const response = await fetch("https://salesnest.onrender.com/customers");
     if (!response.ok) throw new Error("Network response was not ok");
     return await response.json();
   }

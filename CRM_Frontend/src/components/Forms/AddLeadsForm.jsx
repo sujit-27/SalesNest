@@ -21,7 +21,7 @@ function AddLeadForm() {
     setSuccessMsg(null);
 
     try {
-      const response = await fetch(`http://localhost:8080/addLead`, {
+      const response = await fetch(`https://salesnest.onrender.com/addLead`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
