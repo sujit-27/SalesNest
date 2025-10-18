@@ -36,7 +36,7 @@ function AddDealForm() {
 
       setSuccessMsg("Deal added successfully!");
       reset();
-      navigate("/home");
+      navigate("/");
 
     } catch (err) {
       setError(err.message);
