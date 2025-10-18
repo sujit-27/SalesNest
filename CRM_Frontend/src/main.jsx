@@ -19,7 +19,7 @@ import { store } from './app/store.js'
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path="/" element={<Dashboard />}>
-        <Route path="home" element={<DashboardHome />} />
+        <Route path="" element={<DashboardHome />} />
         <Route path="customers" element={<Customers />} />
         <Route path="leads" element={<Leads />} />
         <Route path="deals" element={<Deals />} />
